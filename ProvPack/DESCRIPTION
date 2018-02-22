@@ -1,0 +1,14 @@
+Package: ProvPack
+Title: A suite of utility functions for analysing provenance data
+Version: 1.0.0
+Authors@R: person("Alex", "Lipp", email = "alex@lipp.org.uk", role = c("aut", "cre"))
+Description: Implements some user friendly functions to make attractive graphics of provenance data. Works as an add on to the very effective "provenance" package by Pieter Vermeesch and the "compositions" package of K. Gerald van den Boogaart, utilising the graphics of ggplot2. A helpful functionality implemented is that it allows for plots to be made with a consistent colour scheme for a given data-set, i.e. samples (or groups of samples) retain the same colour across different plots. Helpful for easy comparison of different analyses.
+Depends: R (>= 3.4.2),ggplot2,compositions
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Imports: ggridges,ggrepel,reshape2,provenance
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
